@@ -20,7 +20,7 @@ public class HappyFortuneService implements FortuneService {
         size = fortunes.size();
         int rand_index = rand.nextInt(size);
 
-
+        // Nothing important here
         return fortunes.get(rand_index);
     }
 }
