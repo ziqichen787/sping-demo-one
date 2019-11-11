@@ -5,9 +5,9 @@ public class CricketCoach implements Coach {
     private FortuneService fortuneService;
 
     // add new fields for emailAddress and team
-    public String  emailAddress;
+    private String emailAddress;
 
-    public String team;
+    private String team;
 
     // create a no-argument constructor
     public CricketCoach() {

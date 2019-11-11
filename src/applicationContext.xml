@@ -34,6 +34,17 @@
         <constructor-arg ref="myFortuneService" />
     </bean>
 
+    <bean id="myRandomFortuneService"
+          class="com.luv2code.springdemo.RandomFortuneService">
+
+    </bean>
+
+    <bean id="myGolfCoach"
+          class="com.luv2code.springdemo.GolfCoach">
+
+        <constructor-arg ref="myRandomFortuneService" />
+    </bean>
+
 
     <bean id="myCricketCoach"
           class="com.luv2code.springdemo.CricketCoach">
