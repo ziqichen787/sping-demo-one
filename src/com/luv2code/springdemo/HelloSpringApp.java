@@ -7,7 +7,7 @@ public class HelloSpringApp {
 
         // load the spring configuration file
         ClassPathXmlApplicationContext context =
-                new ClassPathXmlApplicationContext("com/luv2code/springdemo/applicationContext.xml");
+                new ClassPathXmlApplicationContext("applicationContext.xml");
         // Special Note: use the relative path of the applicationContext.xml
 
         // retrieve bean from spring container
